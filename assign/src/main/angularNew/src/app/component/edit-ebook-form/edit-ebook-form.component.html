@@ -1,0 +1,79 @@
+    
+     <div class="card">
+      <div class="card-header text-center rounded"><b>Edit E-Book</b></div>
+    
+      <div class="card-body">
+       <form name="editEBookForm" #editEBookForm="ngForm">
+
+          <div class="form-group">
+            <label for="eBookId" class="float-left col-md-4"><b>E-Book ID:</b></label>
+            <div class="input-group col-md-8">  
+            <input type="text" class="form-control" id="eBookId" readonly
+              name="eBookId" 
+               [(ngModel)]="eBook.id"
+               #eBookId="ngModel" required />
+            </div>
+            </div>
+
+            <div class="form-group">
+                <label for="eBookName" class="float-left col-md-4"><b>E-Book Name:</b></label>
+                <div class="input-group col-md-8">  
+                <input type="text" class="form-control" id="eBookName" 
+                  name="eBookName" 
+                   [(ngModel)]="eBook.name"
+                   #eBookName="ngModel" required />
+                </div>
+                <div *ngIf="eBookName.errors && (eBookName.dirty || eBookName.touched)" 
+                class="offset-md-4 col-md-8">
+                  <div [hidden]="!eBookName.errors.required ">
+                      <p class="text-danger">E-Book Name is required!</p>
+                  </div>
+                </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="eBookRating" class="float-left col-md-4"><b>E-Book Rating:</b></label>
+                    <div class="input-group col-md-8">  
+                    <input type="number" class="form-control" id="eBookRating" 
+                      name="eBookRating" 
+                       [(ngModel)]="eBook.rating"
+                       #eBookRating="ngModel" required />
+                    </div>
+                    <div *ngIf="eBookRating.errors && (eBookRating.dirty || eBookRating.touched)" 
+                    class="offset-md-4 col-md-8">
+                      <div [hidden]="!eBookRating.errors.required ">
+                          <p class="text-danger">E-Book Rating is required!</p>
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="eBookEmail" class="float-left col-md-4"><b>E-Book Email:</b></label>
+                      <div class="input-group col-md-8">  
+                      <input type="text" class="form-control" id="eBookEmail" 
+                        name="eBookEmail" 
+                         [(ngModel)]="eBook.email"
+                         #eBookEmail="ngModel" required />
+                      </div>
+                      <div *ngIf="eBookEmail.errors && (eBookEmail.dirty || eBookEmail.touched)" 
+                      class="offset-md-4 col-md-8">
+                        <div [hidden]="!eBookEmail.errors.required ">
+                            <p class="text-danger">E-Book Email is required!</p>
+                        </div>
+                      </div>
+                      </div>
+        
+        <div class="form-group">
+          <span class="col-md-10"></span>
+            <button type="submit" class="btn btn-success col-md-2 float-right" 
+            (click)="editEBook(eBook);" 
+            [disabled]="!editEBookForm.form.valid" >
+            <b>EDIT</b></button> 
+        </div>
+  
+       </form>  
+
+      </div>
+    
+    </div>
+

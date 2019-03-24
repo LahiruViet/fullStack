@@ -1,0 +1,25 @@
+.container-cms{
+    height: 100%;
+    width: 100%
+}
+
+.header-cms{
+    height: 10vh;
+    width: 100%
+}
+
+.body-cms{
+    height: 80vh;
+    width: 100%
+}
+
+.footer-cms{
+    height: 10vh;
+    width: 100%
+}
+
+.text-center{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+}

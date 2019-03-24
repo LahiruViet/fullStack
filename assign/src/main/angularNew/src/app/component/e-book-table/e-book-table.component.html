@@ -1,0 +1,29 @@
+<hr />
+<div>
+  <h2 class="text-important text-center"> E-Book </h2>
+</div>  
+<hr />
+<div>
+<table class="table table-striped table-bordered">
+  <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Rating</th>
+      <th>Email</th>
+      <th>Action</th>
+    <!-- <th *ngFor="let c of columns">{{c}}</th> -->
+  </tr>
+  <tr *ngFor="let eBook of eBooks">
+      <td>{{eBook['id']}}</td>
+      <td>{{eBook['name']}}</td>
+      <td>{{eBook['rating']}}</td>
+      <td>{{eBook['email']}}</td>
+      <td><button class="btn btn-warning" (click)="getEBookById(eBook['id'])">Edit</button> 
+        | <button class="btn btn-danger" (click)="deleteEBookById(eBook['id'])">Delete</button></td>
+  </tr>
+</table>
+</div>
+
+<div>
+    <button class="btn btn-primary" (click)="routeToAddNewEBookForm()">Create New E-Book</button>
+</div>

@@ -1,0 +1,27 @@
+<hr />
+<div>
+  <h2 class="text-important text-center"> Book </h2>
+</div>  
+<hr />
+<div>
+<table class="table table-striped table-bordered">
+  <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Rating</th>
+      <th>Action</th>
+    <!-- <th *ngFor="let c of columns">{{c}}</th> -->
+  </tr>
+  <tr *ngFor="let book of books">
+      <td>{{book['id']}}</td>
+      <td>{{book['name']}}</td>
+      <td>{{book['rating']}}</td>
+      <td><button class="btn btn-warning" (click)="getBookById(book['id'])">Edit</button> 
+        | <button class="btn btn-danger" (click)="deleteBookById(book['id'])">Delete</button></td>
+  </tr>
+</table>
+</div>
+
+<div>
+    <button class="btn btn-primary" (click)="routeToAddNewBookForm()">Create New Book</button>
+</div>

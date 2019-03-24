@@ -1,0 +1,542 @@
+2018-05-26 01:58:36,452 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s170ms765µs478ns).
+2018-05-26 06:12:42,936 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h14m17s597ms185µs486ns).
+2018-05-26 06:28:20,567 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m7s603ms331µs394ns).
+2018-05-26 07:48:23,344 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m31s895ms957µs845ns).
+2018-05-26 10:22:46,560 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m51s768ms336µs879ns).
+2018-05-26 10:49:41,949 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m55s324ms473µs190ns).
+2018-05-26 13:31:20,013 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m3s726ms81µs717ns).
+2018-05-26 13:51:42,752 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69ad07ba: startup date [Fri May 25 22:38:52 IST 2018]; root of context hierarchy
+2018-05-26 13:51:43,543 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-05-26 13:51:43,583 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-05-26 13:51:43,688 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 13:51:43,768 INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-05-26 13:51:44,129 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-05-26 13:51:44,179 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-05-26 13:51:49,997 INFO  lk.cms.assign.AssignApplication - Starting AssignApplication on DESKTOP-ESBOPKS with PID 8292 (C:\Users\Lahiru\Desktop\enhancedAssign\assign\target\classes started by Lahiru in C:\Users\Lahiru\Desktop\enhancedAssign\assign)
+2018-05-26 13:51:50,002 INFO  lk.cms.assign.AssignApplication - No active profile set, falling back to default profiles: default
+2018-05-26 13:51:50,032 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61b6cb3d: startup date [Sat May 26 13:51:50 IST 2018]; root of context hierarchy
+2018-05-26 13:51:54,167 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e9280ea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-26 13:51:57,690 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-05-26 13:51:57,695 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-26 13:51:57,695 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-05-26 13:51:57,695 INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-26 13:51:57,765 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-26 13:51:57,770 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7738 ms
+2018-05-26 13:51:57,905 INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-05-26 13:51:57,910 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-26 13:51:57,945 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-26 13:51:57,945 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-26 13:51:57,945 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-26 13:51:58,104 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2018-05-26 13:51:58,154 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2018-05-26 13:51:58,189 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-26 13:51:58,204 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-26 13:51:58,314 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-26 13:51:59,344 INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7ddced46'
+2018-05-26 13:51:59,349 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 13:51:59,820 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 13:52:00,026 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61b6cb3d: startup date [Sat May 26 13:51:50 IST 2018]; root of context hierarchy
+2018-05-26 13:52:00,036 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-26 13:52:00,052 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[PUT]}" onto public void lk.cms.assign.controller.BookController.updateBook(lk.cms.assign.dto.Book)
+2018-05-26 13:52:00,052 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.BookController.deleteBookById(java.lang.Integer)
+2018-05-26 13:52:00,052 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[POST]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.addProduct(lk.cms.assign.dto.Book)
+2018-05-26 13:52:00,057 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[GET]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.getBookById(java.lang.Integer)
+2018-05-26 13:52:00,057 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/books],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.BookController.getAllBooks()
+2018-05-26 13:52:00,062 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[PUT]}" onto public void lk.cms.assign.controller.EBookController.updateBook(lk.cms.assign.dto.EBook)
+2018-05-26 13:52:00,062 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[GET]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.getBookById(java.lang.Integer)
+2018-05-26 13:52:00,062 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebooks],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.EBookController.getAllBooks()
+2018-05-26 13:52:00,067 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.EBookController.deleteEBookById(java.lang.Integer)
+2018-05-26 13:52:00,067 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[POST]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.addEBook(lk.cms.assign.dto.EBook)
+2018-05-26 13:52:00,072 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-26 13:52:00,072 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-26 13:52:00,102 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 13:52:00,102 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 13:52:00,122 INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionController
+2018-05-26 13:52:00,347 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-05-26 13:52:00,407 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-05-26 13:52:00,412 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-26 13:52:00,422 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-26 13:52:00,432 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-26 13:52:00,437 INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-05-26 13:52:00,547 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-26 13:52:00,562 INFO  lk.cms.assign.AssignApplication - Started AssignApplication in 11.049 seconds (JVM running for 54798.206)
+2018-05-26 13:52:00,577 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-05-26 13:52:13,166 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-26 13:52:13,166 INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-26 13:52:13,274 INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 108 ms
+2018-05-26 13:52:13,378 INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-26 14:01:39,106 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61b6cb3d: startup date [Sat May 26 13:51:50 IST 2018]; root of context hierarchy
+2018-05-26 14:01:39,124 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-05-26 14:01:39,129 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-05-26 14:01:39,134 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 14:01:39,139 INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-05-26 14:01:39,301 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2018-05-26 14:01:39,389 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2018-05-26 14:01:40,377 INFO  lk.cms.assign.AssignApplication - Starting AssignApplication on DESKTOP-ESBOPKS with PID 8292 (C:\Users\Lahiru\Desktop\enhancedAssign\assign\target\classes started by Lahiru in C:\Users\Lahiru\Desktop\enhancedAssign\assign)
+2018-05-26 14:01:40,377 INFO  lk.cms.assign.AssignApplication - No active profile set, falling back to default profiles: default
+2018-05-26 14:01:40,387 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77b7ccc2: startup date [Sat May 26 14:01:40 IST 2018]; root of context hierarchy
+2018-05-26 14:01:41,844 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e9280ea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-26 14:01:42,119 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-05-26 14:01:42,119 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-26 14:01:42,129 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-05-26 14:01:42,134 INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-26 14:01:42,224 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-26 14:01:42,224 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1837 ms
+2018-05-26 14:01:42,279 INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-05-26 14:01:42,279 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-26 14:01:42,279 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-26 14:01:42,279 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-26 14:01:42,279 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-26 14:01:42,374 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2018-05-26 14:01:42,414 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2018-05-26 14:01:42,424 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-26 14:01:42,424 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-26 14:01:42,444 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-26 14:01:42,919 INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7ddced46'
+2018-05-26 14:01:42,919 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 14:01:43,075 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 14:01:43,210 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77b7ccc2: startup date [Sat May 26 14:01:40 IST 2018]; root of context hierarchy
+2018-05-26 14:01:43,215 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-26 14:01:43,225 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[PUT]}" onto public void lk.cms.assign.controller.BookController.updateBook(lk.cms.assign.dto.Book)
+2018-05-26 14:01:43,225 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.BookController.deleteBookById(java.lang.Integer)
+2018-05-26 14:01:43,230 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[POST]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.addProduct(lk.cms.assign.dto.Book)
+2018-05-26 14:01:43,230 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[GET]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.getBookById(java.lang.Integer)
+2018-05-26 14:01:43,230 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/books],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.BookController.getAllBooks()
+2018-05-26 14:01:43,235 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[PUT]}" onto public void lk.cms.assign.controller.EBookController.updateBook(lk.cms.assign.dto.EBook)
+2018-05-26 14:01:43,235 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[GET]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.getBookById(java.lang.Integer)
+2018-05-26 14:01:43,235 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebooks],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.EBookController.getAllBooks()
+2018-05-26 14:01:43,240 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.EBookController.deleteEBookById(java.lang.Integer)
+2018-05-26 14:01:43,240 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[POST]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.addEBook(lk.cms.assign.dto.EBook)
+2018-05-26 14:01:43,240 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-26 14:01:43,240 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-26 14:01:43,255 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 14:01:43,255 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 14:01:43,265 INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionController
+2018-05-26 14:01:43,444 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-05-26 14:01:43,464 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-05-26 14:01:43,464 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-26 14:01:43,469 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-26 14:01:43,479 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-26 14:01:43,479 INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-05-26 14:01:43,484 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-26 14:01:43,489 INFO  lk.cms.assign.AssignApplication - Started AssignApplication in 3.255 seconds (JVM running for 55381.134)
+2018-05-26 14:01:43,489 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-05-26 14:01:46,285 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77b7ccc2: startup date [Sat May 26 14:01:40 IST 2018]; root of context hierarchy
+2018-05-26 14:01:46,288 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-05-26 14:01:46,288 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-05-26 14:01:46,288 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 14:01:46,288 INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-05-26 14:01:46,332 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2018-05-26 14:01:46,341 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2018-05-26 14:01:47,038 INFO  lk.cms.assign.AssignApplication - Starting AssignApplication on DESKTOP-ESBOPKS with PID 8292 (C:\Users\Lahiru\Desktop\enhancedAssign\assign\target\classes started by Lahiru in C:\Users\Lahiru\Desktop\enhancedAssign\assign)
+2018-05-26 14:01:47,038 INFO  lk.cms.assign.AssignApplication - No active profile set, falling back to default profiles: default
+2018-05-26 14:01:47,043 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10cbe64b: startup date [Sat May 26 14:01:47 IST 2018]; root of context hierarchy
+2018-05-26 14:01:48,476 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e9280ea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-26 14:01:48,680 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-05-26 14:01:48,685 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-26 14:01:48,685 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-05-26 14:01:48,685 INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-26 14:01:48,715 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-26 14:01:48,715 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1672 ms
+2018-05-26 14:01:48,765 INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-05-26 14:01:48,765 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-26 14:01:48,765 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-26 14:01:48,765 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-26 14:01:48,765 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-26 14:01:48,881 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2018-05-26 14:01:48,891 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2018-05-26 14:01:48,896 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-26 14:01:48,896 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-26 14:01:48,916 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-26 14:01:49,338 INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7ddced46'
+2018-05-26 14:01:49,339 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 14:01:49,488 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 14:01:49,613 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10cbe64b: startup date [Sat May 26 14:01:47 IST 2018]; root of context hierarchy
+2018-05-26 14:01:49,618 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-26 14:01:49,628 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[PUT]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.updateBook(lk.cms.assign.dto.Book)
+2018-05-26 14:01:49,628 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.BookController.deleteBookById(java.lang.Integer)
+2018-05-26 14:01:49,628 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[POST]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.addProduct(lk.cms.assign.dto.Book)
+2018-05-26 14:01:49,628 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[GET]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.getBookById(java.lang.Integer)
+2018-05-26 14:01:49,633 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/books],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.BookController.getAllBooks()
+2018-05-26 14:01:49,638 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[PUT]}" onto public void lk.cms.assign.controller.EBookController.updateBook(lk.cms.assign.dto.EBook)
+2018-05-26 14:01:49,638 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[GET]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.getBookById(java.lang.Integer)
+2018-05-26 14:01:49,638 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebooks],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.EBookController.getAllBooks()
+2018-05-26 14:01:49,643 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.EBookController.deleteEBookById(java.lang.Integer)
+2018-05-26 14:01:49,643 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[POST]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.addEBook(lk.cms.assign.dto.EBook)
+2018-05-26 14:01:49,648 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-26 14:01:49,648 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-26 14:01:49,663 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 14:01:49,668 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 14:01:49,678 INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionController
+2018-05-26 14:01:49,773 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-05-26 14:01:49,837 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-05-26 14:01:49,838 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-26 14:01:49,841 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-26 14:01:49,849 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-26 14:01:49,850 INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-05-26 14:01:49,858 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-26 14:01:49,858 INFO  lk.cms.assign.AssignApplication - Started AssignApplication in 2.88 seconds (JVM running for 55387.506)
+2018-05-26 14:01:49,862 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-05-26 14:01:59,806 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-26 14:01:59,806 INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-26 14:01:59,808 INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 2 ms
+2018-05-26 14:01:59,816 INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-26 14:29:08,368 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=26m19s364ms415µs939ns).
+2018-05-26 16:03:49,394 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10cbe64b: startup date [Sat May 26 14:01:47 IST 2018]; root of context hierarchy
+2018-05-26 16:03:49,430 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-05-26 16:03:49,435 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-05-26 16:03:49,440 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 16:03:49,445 INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-05-26 16:03:50,204 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2018-05-26 16:03:50,220 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2018-05-26 16:03:52,023 INFO  lk.cms.assign.AssignApplication - Starting AssignApplication on DESKTOP-ESBOPKS with PID 8292 (C:\Users\Lahiru\Desktop\enhancedAssign\assign\target\classes started by Lahiru in C:\Users\Lahiru\Desktop\enhancedAssign\assign)
+2018-05-26 16:03:52,023 INFO  lk.cms.assign.AssignApplication - No active profile set, falling back to default profiles: default
+2018-05-26 16:03:52,028 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c477ab8: startup date [Sat May 26 16:03:52 IST 2018]; root of context hierarchy
+2018-05-26 16:03:56,219 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e9280ea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-26 16:03:59,079 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-05-26 16:03:59,082 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-26 16:03:59,083 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-05-26 16:03:59,084 INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-26 16:03:59,234 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-26 16:03:59,238 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7210 ms
+2018-05-26 16:03:59,649 INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-05-26 16:03:59,649 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-26 16:03:59,649 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-26 16:03:59,649 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-26 16:03:59,649 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-26 16:03:59,807 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2018-05-26 16:04:00,415 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2018-05-26 16:04:00,521 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-26 16:04:00,525 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-26 16:04:00,686 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-26 16:04:01,637 INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7ddced46'
+2018-05-26 16:04:01,638 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 16:04:02,586 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 16:04:02,957 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c477ab8: startup date [Sat May 26 16:03:52 IST 2018]; root of context hierarchy
+2018-05-26 16:04:02,968 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-26 16:04:03,001 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[PUT]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.updateBook(lk.cms.assign.dto.Book)
+2018-05-26 16:04:03,001 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.BookController.deleteBookById(java.lang.Integer)
+2018-05-26 16:04:03,002 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[POST]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.addProduct(lk.cms.assign.dto.Book)
+2018-05-26 16:04:03,003 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[GET]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.getBookById(java.lang.Integer)
+2018-05-26 16:04:03,004 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/books],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.BookController.getAllBooks()
+2018-05-26 16:04:03,007 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[PUT]}" onto public void lk.cms.assign.controller.EBookController.updateBook(lk.cms.assign.dto.EBook)
+2018-05-26 16:04:03,008 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[GET]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.getBookById(java.lang.Integer)
+2018-05-26 16:04:03,009 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebooks],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.EBookController.getAllBooks()
+2018-05-26 16:04:03,009 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.EBookController.deleteEBookById(java.lang.Integer)
+2018-05-26 16:04:03,010 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[POST]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.addEBook(lk.cms.assign.dto.EBook)
+2018-05-26 16:04:03,015 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-26 16:04:03,016 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-26 16:04:03,029 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 16:04:03,030 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 16:04:03,040 INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionController
+2018-05-26 16:04:04,161 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-05-26 16:04:04,767 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-05-26 16:04:04,969 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-26 16:04:05,132 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-26 16:04:05,338 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-26 16:04:05,343 INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-05-26 16:04:05,358 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-26 16:04:05,363 INFO  lk.cms.assign.AssignApplication - Started AssignApplication in 13.447 seconds (JVM running for 62723.011)
+2018-05-26 16:04:05,368 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-05-26 16:05:58,755 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-26 16:05:58,759 INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-26 16:05:58,810 INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
+2018-05-26 16:05:58,825 INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-26 16:13:05,285 ERROR l.c.a.c.ExceptionController - JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "g": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Integer` from String "g": not a valid Integer value
+ at [Source: (PushbackInputStream); line: 1, column: 22] (through reference chain: lk.cms.assign.dto.Book["rating"])
+2018-05-26 16:13:05,350 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by Handler execution: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "g": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Integer` from String "g": not a valid Integer value
+ at [Source: (PushbackInputStream); line: 1, column: 22] (through reference chain: lk.cms.assign.dto.Book["rating"])
+2018-05-26 16:54:32,346 ERROR l.c.a.c.ExceptionController - No class lk.cms.assign.dto.Book entity with id 8 exists!
+2018-05-26 16:54:32,827 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by Handler execution: org.springframework.dao.EmptyResultDataAccessException: No class lk.cms.assign.dto.Book entity with id 8 exists!
+2018-05-26 16:55:41,565 ERROR l.c.a.c.ExceptionController - No class lk.cms.assign.dto.Book entity with id 9 exists!
+2018-05-26 16:55:41,571 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by Handler execution: org.springframework.dao.EmptyResultDataAccessException: No class lk.cms.assign.dto.Book entity with id 9 exists!
+2018-05-26 16:57:23,085 ERROR l.c.a.c.ExceptionController - No class lk.cms.assign.dto.Book entity with id 4 exists!
+2018-05-26 16:57:23,085 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by Handler execution: org.springframework.dao.EmptyResultDataAccessException: No class lk.cms.assign.dto.Book entity with id 4 exists!
+2018-05-26 17:04:35,015 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5c477ab8: startup date [Sat May 26 16:03:52 IST 2018]; root of context hierarchy
+2018-05-26 17:04:35,331 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-05-26 17:04:35,343 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-05-26 17:04:35,539 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 17:04:35,976 INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-05-26 17:04:37,886 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2018-05-26 17:04:38,074 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2018-05-26 17:04:47,246 INFO  lk.cms.assign.AssignApplication - Starting AssignApplication on DESKTOP-ESBOPKS with PID 8292 (C:\Users\Lahiru\Desktop\enhancedAssign\assign\target\classes started by Lahiru in C:\Users\Lahiru\Desktop\enhancedAssign\assign)
+2018-05-26 17:04:47,246 INFO  lk.cms.assign.AssignApplication - No active profile set, falling back to default profiles: default
+2018-05-26 17:04:47,276 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d61f24f: startup date [Sat May 26 17:04:47 IST 2018]; root of context hierarchy
+2018-05-26 17:04:51,809 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e9280ea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-26 17:04:55,802 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-05-26 17:04:55,806 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-26 17:04:55,807 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-05-26 17:04:55,807 INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-26 17:04:56,010 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-26 17:04:56,014 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8738 ms
+2018-05-26 17:04:56,287 INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-05-26 17:04:56,287 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-26 17:04:56,287 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-26 17:04:56,287 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-26 17:04:56,291 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-26 17:04:56,719 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2018-05-26 17:04:56,803 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2018-05-26 17:04:56,847 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-26 17:04:56,848 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-26 17:04:56,987 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-26 17:04:57,976 INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7ddced46'
+2018-05-26 17:04:57,978 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 17:04:59,602 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookController': Unsatisfied dependency expressed through field 'bookService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookServiceImpl': Unsatisfied dependency expressed through field 'bookRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List lk.cms.assign.dao.BookRepository.findAllOrderByIdDesc()! No property desc found for type Integer! Traversed path: Book.id.
+2018-05-26 17:04:59,603 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 17:04:59,604 INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-05-26 17:04:59,652 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2018-05-26 17:04:59,703 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2018-05-26 17:04:59,704 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2018-05-26 17:04:59,818 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-05-26 17:04:59,902 ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookController': Unsatisfied dependency expressed through field 'bookService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookServiceImpl': Unsatisfied dependency expressed through field 'bookRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List lk.cms.assign.dao.BookRepository.findAllOrderByIdDesc()! No property desc found for type Integer! Traversed path: Book.id.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1348)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at lk.cms.assign.AssignApplication.main(AssignApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookServiceImpl': Unsatisfied dependency expressed through field 'bookRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List lk.cms.assign.dao.BookRepository.findAllOrderByIdDesc()! No property desc found for type Integer! Traversed path: Book.id.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1348)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List lk.cms.assign.dao.BookRepository.findAllOrderByIdDesc()! No property desc found for type Integer! Traversed path: Book.id.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List lk.cms.assign.dao.BookRepository.findAllOrderByIdDesc()! No property desc found for type Integer! Traversed path: Book.id.
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:82)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:208)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:553)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:546)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1049)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:548)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:538)
+	at java.util.Optional.map(Optional.java:215)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:538)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:317)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$3(RepositoryFactoryBeanSupport.java:287)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:141)
+	at org.springframework.data.util.Lazy.get(Lazy.java:63)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:290)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1765)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1702)
+	... 47 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property desc found for type Integer! Traversed path: Book.id.
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:92)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:356)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:332)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:366)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:390)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:332)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:285)
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:267)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:250)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:380)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:381)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:76)
+	... 73 common frames omitted
+2018-05-26 17:06:58,775 INFO  lk.cms.assign.AssignApplication - Starting AssignApplication on DESKTOP-ESBOPKS with PID 8292 (C:\Users\Lahiru\Desktop\enhancedAssign\assign\target\classes started by Lahiru in C:\Users\Lahiru\Desktop\enhancedAssign\assign)
+2018-05-26 17:06:58,775 INFO  lk.cms.assign.AssignApplication - No active profile set, falling back to default profiles: default
+2018-05-26 17:06:58,799 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bd25fde: startup date [Sat May 26 17:06:58 IST 2018]; root of context hierarchy
+2018-05-26 17:07:01,730 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e9280ea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-26 17:07:02,385 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-05-26 17:07:02,390 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-26 17:07:02,390 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-05-26 17:07:02,390 INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-26 17:07:02,440 INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-26 17:07:02,445 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3646 ms
+2018-05-26 17:07:02,536 INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-05-26 17:07:02,541 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-26 17:07:02,541 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-26 17:07:02,541 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-26 17:07:02,541 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-26 17:07:02,691 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2018-05-26 17:07:02,701 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2018-05-26 17:07:02,721 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-26 17:07:02,721 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-26 17:07:02,780 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-26 17:07:03,776 INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7ddced46'
+2018-05-26 17:07:03,777 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 17:07:04,991 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 17:07:05,394 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bd25fde: startup date [Sat May 26 17:06:58 IST 2018]; root of context hierarchy
+2018-05-26 17:07:05,402 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-26 17:07:05,419 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[PUT]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.updateBook(lk.cms.assign.dto.Book)
+2018-05-26 17:07:05,420 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.BookController.deleteBookById(java.lang.Integer)
+2018-05-26 17:07:05,420 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[POST]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.addProduct(lk.cms.assign.dto.Book)
+2018-05-26 17:07:05,422 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[GET]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.getBookById(java.lang.Integer)
+2018-05-26 17:07:05,423 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/books],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.BookController.getAllBooks()
+2018-05-26 17:07:05,426 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[PUT]}" onto public void lk.cms.assign.controller.EBookController.updateBook(lk.cms.assign.dto.EBook)
+2018-05-26 17:07:05,427 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[GET]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.getBookById(java.lang.Integer)
+2018-05-26 17:07:05,430 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebooks],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.EBookController.getAllBooks()
+2018-05-26 17:07:05,431 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.EBookController.deleteEBookById(java.lang.Integer)
+2018-05-26 17:07:05,431 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[POST]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.addEBook(lk.cms.assign.dto.EBook)
+2018-05-26 17:07:05,434 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-26 17:07:05,435 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-26 17:07:05,450 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 17:07:05,450 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 17:07:05,503 INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionController
+2018-05-26 17:07:05,871 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-05-26 17:07:05,898 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-05-26 17:07:05,898 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-26 17:07:05,898 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-26 17:07:05,903 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-26 17:07:05,908 INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-05-26 17:07:06,028 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-26 17:07:06,032 INFO  lk.cms.assign.AssignApplication - Started AssignApplication in 7.616 seconds (JVM running for 66503.68)
+2018-05-26 17:07:06,033 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-05-26 17:07:23,441 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bd25fde: startup date [Sat May 26 17:06:58 IST 2018]; root of context hierarchy
+2018-05-26 17:07:23,444 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-05-26 17:07:23,444 INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-05-26 17:07:23,449 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 17:07:23,449 INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-05-26 17:07:23,489 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2018-05-26 17:07:23,510 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2018-05-26 17:07:24,161 INFO  lk.cms.assign.AssignApplication - Starting AssignApplication on DESKTOP-ESBOPKS with PID 8292 (C:\Users\Lahiru\Desktop\enhancedAssign\assign\target\classes started by Lahiru in C:\Users\Lahiru\Desktop\enhancedAssign\assign)
+2018-05-26 17:07:24,161 INFO  lk.cms.assign.AssignApplication - No active profile set, falling back to default profiles: default
+2018-05-26 17:07:24,176 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b835f7c: startup date [Sat May 26 17:07:24 IST 2018]; root of context hierarchy
+2018-05-26 17:07:24,701 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e9280ea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-26 17:07:24,822 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-05-26 17:07:24,826 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-26 17:07:24,830 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-05-26 17:07:24,834 INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-26 17:07:24,867 INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-26 17:07:24,872 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 696 ms
+2018-05-26 17:07:24,947 INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-05-26 17:07:24,947 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-26 17:07:24,947 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-26 17:07:24,947 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-26 17:07:24,947 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-26 17:07:25,019 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2018-05-26 17:07:25,022 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2018-05-26 17:07:25,037 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-26 17:07:25,037 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-26 17:07:25,121 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-26 17:07:25,673 INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7ddced46'
+2018-05-26 17:07:25,678 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-26 17:07:25,822 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 17:07:25,948 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b835f7c: startup date [Sat May 26 17:07:24 IST 2018]; root of context hierarchy
+2018-05-26 17:07:25,953 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-26 17:07:25,963 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[PUT]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.updateBook(lk.cms.assign.dto.Book)
+2018-05-26 17:07:25,963 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.BookController.deleteBookById(java.lang.Integer)
+2018-05-26 17:07:25,963 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[POST]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.addProduct(lk.cms.assign.dto.Book)
+2018-05-26 17:07:25,963 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[GET]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.getBookById(java.lang.Integer)
+2018-05-26 17:07:25,963 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/books],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.BookController.getAllBooks()
+2018-05-26 17:07:25,963 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[PUT]}" onto public void lk.cms.assign.controller.EBookController.updateBook(lk.cms.assign.dto.EBook)
+2018-05-26 17:07:25,968 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[GET]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.getBookById(java.lang.Integer)
+2018-05-26 17:07:25,968 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebooks],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.EBookController.getAllBooks()
+2018-05-26 17:07:25,968 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.EBookController.deleteEBookById(java.lang.Integer)
+2018-05-26 17:07:25,968 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[POST]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.addEBook(lk.cms.assign.dto.EBook)
+2018-05-26 17:07:25,968 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-26 17:07:25,968 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-26 17:07:25,978 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 17:07:25,978 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-26 17:07:25,988 INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionController
+2018-05-26 17:07:26,050 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-05-26 17:07:26,109 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-05-26 17:07:26,114 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-26 17:07:26,114 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-26 17:07:26,124 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-26 17:07:26,124 INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-05-26 17:07:26,140 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-26 17:07:26,141 INFO  lk.cms.assign.AssignApplication - Started AssignApplication in 2.02 seconds (JVM running for 66523.788)
+2018-05-26 17:07:26,151 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2018-05-26 17:08:01,573 INFO  o.a.c.c.C.[.[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-26 17:08:01,573 INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-26 17:08:01,579 INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+2018-05-26 17:08:01,717 INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-26 18:30:36,300 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Thread starvation or clock leap detected (housekeeper delta=1h20m41s159ms860µs804ns).
+2018-05-26 19:32:42,733 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Thread starvation or clock leap detected (housekeeper delta=21m6s189ms235µs15ns).
+2018-05-26 21:32:04,505 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Thread starvation or clock leap detected (housekeeper delta=1h20m51s555ms314µs188ns).
+2018-05-26 22:39:41,284 ERROR l.c.a.c.ExceptionController - No class lk.cms.assign.dto.Book entity with id 12 exists!
+2018-05-26 22:39:41,383 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by Handler execution: org.springframework.dao.EmptyResultDataAccessException: No class lk.cms.assign.dto.Book entity with id 12 exists!
+2018-05-26 22:40:37,515 ERROR l.c.a.c.ExceptionController - No class lk.cms.assign.dto.Book entity with id 14 exists!
+2018-05-26 22:40:37,517 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by Handler execution: org.springframework.dao.EmptyResultDataAccessException: No class lk.cms.assign.dto.Book entity with id 14 exists!

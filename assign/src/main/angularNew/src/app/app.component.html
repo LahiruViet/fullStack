@@ -1,0 +1,25 @@
+<div class="container container-cms">
+  <div class="row header-cms">
+    <header class="header-cms text-center">Header</header>
+  </div>
+  <div class="row body-cms">
+    <!-- <div class="col-md-3">Menu</div> -->
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-6">
+              <button class="btn btn-info" (click)="routeToBookTable()">Book</button>
+            </div>
+            <div class="col-md-6">
+              <button class="btn btn-info float-right" (click)="routeToEBookTable()">E-Book</button>
+            </div>
+            </div>
+            <hr />
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div class="row ">
+    <footer class=" footer-cms text-center">Footer</footer>
+  </div>
+  </div>
+  
+  

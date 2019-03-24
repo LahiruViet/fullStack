@@ -1,0 +1,63 @@
+    
+     <div class="card">
+      <div class="card-header text-center rounded"><b>Edit Book</b></div>
+    
+      <div class="card-body">
+       <form name="editBookForm" #editBookForm="ngForm">
+
+          <div class="form-group">
+            <label for="bookId" class="float-left col-md-4"><b>Book ID:</b></label>
+            <div class="input-group col-md-8">  
+            <input type="text" class="form-control" id="bookId" readonly
+              name="bookId" 
+               [(ngModel)]="book.id"
+               #bookId="ngModel" required />
+            </div>
+            </div>
+
+            <div class="form-group">
+                <label for="bookName" class="float-left col-md-4"><b>Book Name:</b></label>
+                <div class="input-group col-md-8">  
+                <input type="text" class="form-control" id="bookName" 
+                  name="bookName" 
+                   [(ngModel)]="book.name"
+                   #bookName="ngModel" required />
+                </div>
+                <div *ngIf="bookName.errors && (bookName.dirty || bookName.touched)" 
+                class="offset-md-4 col-md-8">
+                  <div [hidden]="!bookName.errors.required ">
+                      <p class="text-danger">Book Name is required!</p>
+                  </div>
+                </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bookRating" class="float-left col-md-4"><b>Book Rating:</b></label>
+                    <div class="input-group col-md-8">  
+                    <input type="number" class="form-control" id="bookRating" 
+                      name="bookRating" 
+                       [(ngModel)]="book.rating"
+                       #bookRating="ngModel" required />
+                    </div>
+                    <div *ngIf="bookRating.errors && (bookRating.dirty || bookRating.touched)" 
+                    class="offset-md-4 col-md-8">
+                      <div [hidden]="!bookRating.errors.required ">
+                          <p class="text-danger">Book Rating is required!</p>
+                      </div>
+                    </div>
+                    </div>
+        
+        <div class="form-group">
+          <span class="col-md-10"></span>
+            <button type="submit" class="btn btn-success col-md-2 float-right" 
+            (click)="editBook(book);" 
+            [disabled]="!editBookForm.form.valid" >
+            <b>EDIT</b></button> 
+        </div>
+  
+       </form>  
+
+      </div>
+    
+    </div>
+

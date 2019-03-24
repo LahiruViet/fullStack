@@ -1,0 +1,118 @@
+2018-05-25 21:27:41,981 INFO  lk.cms.assign.AssignApplication - Starting AssignApplication on DESKTOP-ESBOPKS with PID 10932 (C:\Users\Lahiru\Desktop\enhancedAssign\assign\target\classes started by Lahiru in C:\Users\Lahiru\Desktop\enhancedAssign\assign)
+2018-05-25 21:27:41,987 INFO  lk.cms.assign.AssignApplication - No active profile set, falling back to default profiles: default
+2018-05-25 21:27:42,136 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f430b40: startup date [Fri May 25 21:27:42 IST 2018]; root of context hierarchy
+2018-05-25 21:27:46,616 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e9280ea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-25 21:27:48,572 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-05-25 21:27:48,648 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-25 21:27:48,695 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-05-25 21:27:48,696 INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-25 21:27:48,754 INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_112\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_112/bin/server;C:/Program Files/Java/jre1.8.0_112/bin;C:/Program Files/Java/jre1.8.0_112/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\softwares\apache-maven-3.3.9\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\nodejs\;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.0\bin;C:\Program Files\Cloud Foundry;C:\Program Files (x86)\Yarn\bin;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Lahiru\AppData\Roaming\npm;C:\Users\Lahiru\AppData\Local\Microsoft\WindowsApps;C:\Users\Lahiru\AppData\Local\Yarn\bin;C:\Users\Lahiru\Desktop;;.]
+2018-05-25 21:27:49,138 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-25 21:27:49,139 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7004 ms
+2018-05-25 21:27:49,491 INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-05-25 21:27:49,500 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-25 21:27:49,501 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-25 21:27:49,502 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-25 21:27:49,502 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-25 21:27:50,386 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-05-25 21:27:51,069 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-05-25 21:27:51,369 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-25 21:27:51,536 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-25 21:27:51,856 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+2018-05-25 21:27:51,859 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-05-25 21:27:52,082 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-05-25 21:27:52,570 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-25 21:27:54,971 INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7ddced46'
+2018-05-25 21:27:54,986 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-25 21:27:56,552 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-25 21:27:57,604 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f430b40: startup date [Fri May 25 21:27:42 IST 2018]; root of context hierarchy
+2018-05-25 21:27:57,739 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-25 21:27:57,878 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[GET]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.getBookById(java.lang.Integer)
+2018-05-25 21:27:57,883 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.BookController.deleteBookById(java.lang.Integer)
+2018-05-25 21:27:57,884 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[POST]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.addProduct(lk.cms.assign.dto.Book)
+2018-05-25 21:27:57,885 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/books],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.BookController.getAllBooks()
+2018-05-25 21:27:57,886 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[PUT]}" onto public void lk.cms.assign.controller.BookController.updateBook(lk.cms.assign.dto.Book)
+2018-05-25 21:27:57,888 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[GET]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.getBookById(java.lang.Integer)
+2018-05-25 21:27:57,889 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[POST]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.addEBook(lk.cms.assign.dto.EBook)
+2018-05-25 21:27:57,889 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebooks],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.EBookController.getAllBooks()
+2018-05-25 21:27:57,890 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[PUT]}" onto public void lk.cms.assign.controller.EBookController.updateBook(lk.cms.assign.dto.EBook)
+2018-05-25 21:27:57,890 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.EBookController.deleteEBookById(java.lang.Integer)
+2018-05-25 21:27:57,893 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-25 21:27:57,894 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-25 21:27:57,976 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-25 21:27:57,977 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-25 21:27:58,025 INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionController
+2018-05-25 21:27:58,654 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-05-25 21:27:58,723 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-05-25 21:27:58,726 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-25 21:27:58,734 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-25 21:27:58,782 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-25 21:27:58,887 INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-05-25 21:27:58,940 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-25 21:27:58,947 INFO  lk.cms.assign.AssignApplication - Started AssignApplication in 17.532 seconds (JVM running for 18.59)
+2018-05-25 21:34:34,169 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-25 21:34:34,169 INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-25 21:34:34,243 INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 74 ms
+2018-05-25 21:34:47,013 WARN  o.s.web.servlet.PageNotFound - Request method 'GET' not supported
+2018-05-25 21:34:47,014 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+2018-05-25 21:35:32,922 INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-25 22:38:52,040 INFO  lk.cms.assign.AssignApplication - Starting AssignApplication on DESKTOP-ESBOPKS with PID 8292 (C:\Users\Lahiru\Desktop\enhancedAssign\assign\target\classes started by Lahiru in C:\Users\Lahiru\Desktop\enhancedAssign\assign)
+2018-05-25 22:38:52,116 INFO  lk.cms.assign.AssignApplication - No active profile set, falling back to default profiles: default
+2018-05-25 22:38:52,281 INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69ad07ba: startup date [Fri May 25 22:38:52 IST 2018]; root of context hierarchy
+2018-05-25 22:38:57,864 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e9280ea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-25 22:39:01,633 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-05-25 22:39:01,764 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-25 22:39:01,874 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-05-25 22:39:01,875 INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-25 22:39:01,960 INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_112\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_112/bin/server;C:/Program Files/Java/jre1.8.0_112/bin;C:/Program Files/Java/jre1.8.0_112/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\softwares\apache-maven-3.3.9\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\nodejs\;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.0\bin;C:\Program Files\Cloud Foundry;C:\Program Files (x86)\Yarn\bin;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Lahiru\AppData\Roaming\npm;C:\Users\Lahiru\AppData\Local\Microsoft\WindowsApps;C:\Users\Lahiru\AppData\Local\Yarn\bin;C:\Users\Lahiru\eclipse\jee-oxygen\eclipse;;.]
+2018-05-25 22:39:03,606 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-25 22:39:03,607 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 11327 ms
+2018-05-25 22:39:04,317 INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-05-25 22:39:04,339 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-25 22:39:04,339 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-25 22:39:04,340 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-25 22:39:04,340 INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-25 22:39:05,457 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-05-25 22:39:08,148 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-05-25 22:39:08,373 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-25 22:39:08,509 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-25 22:39:08,896 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+2018-05-25 22:39:08,898 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-05-25 22:39:09,178 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-05-25 22:39:09,711 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-25 22:39:13,093 INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7ddced46'
+2018-05-25 22:39:13,127 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-25 22:39:14,853 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-25 22:39:16,394 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69ad07ba: startup date [Fri May 25 22:38:52 IST 2018]; root of context hierarchy
+2018-05-25 22:39:16,575 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-25 22:39:16,778 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[PUT]}" onto public void lk.cms.assign.controller.BookController.updateBook(lk.cms.assign.dto.Book)
+2018-05-25 22:39:16,787 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.BookController.deleteBookById(java.lang.Integer)
+2018-05-25 22:39:16,788 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book],methods=[POST]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.addProduct(lk.cms.assign.dto.Book)
+2018-05-25 22:39:16,790 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/book/{id}],methods=[GET]}" onto public lk.cms.assign.dto.Book lk.cms.assign.controller.BookController.getBookById(java.lang.Integer)
+2018-05-25 22:39:16,791 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/books],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.BookController.getAllBooks()
+2018-05-25 22:39:16,798 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[PUT]}" onto public void lk.cms.assign.controller.EBookController.updateBook(lk.cms.assign.dto.EBook)
+2018-05-25 22:39:16,799 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[GET]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.getBookById(java.lang.Integer)
+2018-05-25 22:39:16,800 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebooks],methods=[GET]}" onto public lk.cms.assign.dto.CommonResponse lk.cms.assign.controller.EBookController.getAllBooks()
+2018-05-25 22:39:16,801 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook/{id}],methods=[DELETE]}" onto public void lk.cms.assign.controller.EBookController.deleteEBookById(java.lang.Integer)
+2018-05-25 22:39:16,803 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ebook],methods=[POST]}" onto public lk.cms.assign.dto.EBook lk.cms.assign.controller.EBookController.addEBook(lk.cms.assign.dto.EBook)
+2018-05-25 22:39:16,811 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-25 22:39:16,813 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-25 22:39:16,936 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-25 22:39:16,937 INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-25 22:39:17,105 INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionController
+2018-05-25 22:39:17,995 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-05-25 22:39:18,110 INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-05-25 22:39:18,115 INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-25 22:39:18,125 INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-25 22:39:18,178 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-05-25 22:39:18,315 INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-05-25 22:39:18,372 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-25 22:39:18,379 INFO  lk.cms.assign.AssignApplication - Started AssignApplication in 27.154 seconds (JVM running for 28.72)
+2018-05-25 22:39:35,377 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-25 22:39:35,378 INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-25 22:39:35,514 INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 136 ms
+2018-05-25 22:39:36,216 INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
